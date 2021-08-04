@@ -31,7 +31,7 @@ class bird:
             ellipse(self.x+5,self.y-5,5,5) #draw the eye
             fill(0)
             strokeWeight(1)
-            ellipse(self.x+5,self.y-5,1,1) #draw the eyeball
+            ellipse(self.x+5,self.y-5,1,1) #draw the pupil
             fill(255,0,50)
             ellipse(self.x+7,self.y+2,0.5*self.r,0.25*self.r) #draw the mouth
         
